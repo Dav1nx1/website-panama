@@ -1,0 +1,161 @@
+{
+  "navigation": {
+    "home": "INÍCIO",
+    "about": "SOBRE",
+    "accommodations": "ALOJAMENTOS",
+    "contact": "CONTACTO",
+    "inquire": "CONSULTAR AGORA"
+  },
+  "hero": {
+    "title": {
+      "madeiras": "MADEIRAS",
+      "hiddenParadise": "PARAÍSO ESCONDIDO"
+    },
+    "description": "Mergulhe no oásis sereno de Mea Suna Madeira, onde o conforto e o estilo coexistem em perfeita harmonia.",
+    "scrollDown": "ROLAR PARA BAIXO",
+    "backgroundAlt": "Interior de luxo da Madeira"
+  },
+  "brand": {
+    "name": "MEA SUNA MADEIRA"
+  },
+  "metadata": {
+    "title": "Mea Suna Madeira - Paraíso Escondido",
+    "description": "Mergulhe no oásis sereno de Mea Suna Madeira, onde o conforto e o estilo coexistem em perfeita harmonia."
+  },
+  "accessibility": {
+    "toggleMenu": "Alternar menu"
+  },
+  "amenities": {
+    "title": "Amenidades Exquisitas",
+    "carousel": {
+      "nextAmenity": "Próxima amenidade",
+      "goToAmenity": "Ir para amenidade"
+    },
+    "items": {
+      "fitnessSpa": {
+        "title": "FITNESS E SPA",
+        "description": "Mantenha-se ativo na nossa espaçosa sala de fitness com vistas deslumbrantes para o mar, equipada com múltiplos dispositivos de cardio, força e treino com peso corporal. Após o seu treino, relaxe na nossa grande sauna e sala de relaxamento adjacente para a experiência de revitalização perfeita."
+      },
+      "homeCinema": {
+        "title": "CINEMA EM CASA",
+        "description": "Desfrute de noites de cinema no nosso cinema em casa de última geração com sistema de som premium e assentos confortáveis para a experiência de entretenimento definitiva."
+      },
+      "golfSimulator": {
+        "title": "SIMULADOR DE GOLFE",
+        "description": "Perfeicione o seu swing com o nosso simulador de golfe de alta qualidade no bar '19th hole', com campos realistas e equipamento de nível profissional."
+      }
+    }
+  },
+  "features": {
+    "items": {
+      "privacy": {
+        "label": "INTERIOR",
+        "title": "PRIVACIDADE E ESPAÇO",
+        "description": "Descubra privacidade e conforto incomparáveis em cada canto da nossa casa. Desfrute de espaços de jantar elegantes, espaços de vida aconchegantes e quartos elegantes, todos cuidadosamente projetados para o seu relaxamento definitivo."
+      },
+      "panoramic": {
+        "label": "",
+        "title": "PARAÍSO PANORÂMICO",
+        "description": ""
+      },
+      "amenities": {
+        "label": "",
+        "title": "AMENIDADES EXQUISITAS",
+        "description": ""
+      }
+    }
+  },
+  "featureSection": {
+    "title": "LONGE DO ORDINÁRIO, PERTO DA PERFEIÇÃO!",
+    "description": "Mea Suna Madeira representa extravagância própria. Aninhado ao longo da costa verde da Madeira, este lugar de calma e relaxamento oferece amenidades extraordinárias. Desde um simulador de golfe de classe mundial até bem-estar incomparável e espaços de trabalho inspiradores, tudo o que deseja está aqui.",
+    "playVideo": "Reproduzir vídeo",
+    "imageAlt": "Terraço de luxo com vista para o oceano na Mea Suna Madeira",
+    "videoFallback": "O seu navegador não suporta a etiqueta de vídeo."
+  },
+  "horizontalScroll": {
+    "panels": {
+      "livingSpace": {
+        "title": "Espaço de Vida",
+        "description": "Mergulhe no máximo conforto da nossa espaçosa área de vida. Relaxe junto à lareira, descanse no sofá macio ou mantenha-se produtivo na serena sala de estudo."
+      },
+      "exploreHome": {
+        "label": "PRIVACIDADE E ESPAÇO",
+        "title": "EXPLORE NOSSA CASA",
+        "description": "Desde o momento em que entrar na ampla área de vida, ficará imerso nas vistas deslumbrantes do mar que definem cada quarto. As belas áreas de estar, elegantes espaços de jantar e quartos acolhedores criam um ambiente refinado e acolhedor.",
+        "button": "CONSULTAR AGORA"
+      }
+    },
+    "images": {
+      "exteriorPool": "Área da piscina exterior",
+      "stoneWall": "Detalhe da parede de pedra",
+      "glassRailing": "Detalhe do corrimão de vidro",
+      "livingRoom": "Sala de estar com acentos turquesa",
+      "preview1": "Pré-visualização 1",
+      "preview2": "Pré-visualização 2",
+      "previous": "Anterior",
+      "modernExterior": "Exterior moderno da casa",
+      "relaxationArea": "Área de relaxamento",
+      "bedroomView": "Vista do quarto"
+    },
+    "navigation": {
+      "nextSection": "Próxima seção"
+    }
+  },
+  "testimonials": {
+    "title": "HISTÓRIAS DE CLIENTES",
+    "carousel": {
+      "previousTestimonial": "Depoimento anterior",
+      "nextTestimonial": "Próximo depoimento",
+      "goToTestimonial": "Ir ao depoimento"
+    },
+    "items": {
+      "beatrix": {
+        "quote": "A nossa família teve um tempo incrível! As crianças divertiram-se com o futebol de mesa e bilhar, enquanto eu encontrei paz no jardim tranquilo. A casa oferece tanto, desde relaxar na sauna até desfrutar de noites de cinema. Realmente sentiu-se como ter o nosso próprio retiro privado. Perfeito para uma escapada em família!",
+        "author": "Beatrix Aldridge"
+      },
+      "james": {
+        "quote": "Não poderíamos ter pedido uma melhor fuga para a Madeira. As vistas deslumbrantes, a privacidade da ilha e as amenidades luxuosas causaram tanta impressão quanto as manhãs com café na varanda, refrescando-se na piscina e as noites relaxando. A casa superou as nossas expectativas e deu-nos tudo o que procurávamos.",
+        "author": "James Brown"
+      },
+      "sophie": {
+        "quote": "Uma experiência inesquecível no paraíso. Cada detalhe foi cuidadosamente projetado para conforto e luxo. A piscina infinita, os jardins e as vistas deslumbrantes tornaram a nossa estadia verdadeiramente mágica.",
+        "author": "Sophie Martinez"
+      }
+    },
+    "images": {
+      "background": "Fundo"
+    }
+  },
+  "contact": {
+    "title": "VAMOS PLANEAR AS SUAS FÉRIAS INESQUECÍVEIS.",
+    "backgroundAlt": "Fundo de contacto",
+    "bookingRequest": {
+      "title": "Enviar Pedido de Reserva",
+      "description": "Vamos planear as suas férias inesquecíveis."
+    },
+    "businessContact": {
+      "title": "Contacte-nos para Negócios",
+      "description": "Consulte para parcerias comerciais."
+    }
+  },
+  "footer": {
+    "brandName": "MEA SUNA MADEIRA",
+    "award": {
+      "title": "MELHOR VILLA PRIVADA DE LUXO",
+      "subtitle": "PORTUGAL 2025",
+      "alt": "Melhor Villa Privada de Luxo Portugal 2025"
+    },
+    "social": {
+      "instagram": "Instagram",
+      "tiktok": "TikTok",
+      "airbnb": "Airbnb",
+      "booking": "Booking.com"
+    },
+    "copyright": "© 2025 Mea Suna Madeira. Todos os direitos reservados."
+  },
+  "common": {
+    "loading": "Carregando...",
+    "error": "Ocorreu um erro",
+    "retry": "Tentar novamente"
+  }
+}
