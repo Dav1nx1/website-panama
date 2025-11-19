@@ -1,0 +1,77 @@
+name: Deploy to Digital Ocean
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    name: Deploy Application
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup SSH
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.DO_SSH_KEY }}
+          SSH_HOST: ${{ secrets.DO_HOST }}
+          SSH_USER: ${{ secrets.DO_USER }}
+        run: |
+          mkdir -p ~/.ssh
+          echo "$SSH_PRIVATE_KEY" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          ssh-keyscan -H $SSH_HOST >> ~/.ssh/known_hosts
+
+      - name: Deploy to server
+        env:
+          SSH_HOST: ${{ secrets.DO_HOST }}
+          SSH_USER: ${{ secrets.DO_USER }}
+        run: |
+          ssh -i ~/.ssh/deploy_key $SSH_USER@$SSH_HOST << 'ENDSSH'
+            set -e
+
+            echo "📦 Navigating to deployment directory..."
+            cd /var/www/measuna-website || exit 1
+
+            echo "🔄 Pulling latest changes from GitHub..."
+            git fetch origin main
+            git reset --hard origin/main
+
+            echo "🐳 Building and deploying with Docker..."
+            docker-compose down
+            docker-compose build --no-cache
+            docker-compose up -d
+
+            echo "🧹 Cleaning up old Docker images..."
+            docker image prune -f
+
+            echo "✅ Deployment completed successfully!"
+
+            # Health check
+            echo "🏥 Performing health check..."
+            sleep 10
+            if curl -f http://localhost:3000 > /dev/null 2>&1; then
+              echo "✅ Application is healthy and running!"
+            else
+              echo "❌ Health check failed!"
+              docker-compose logs --tail=50
+              exit 1
+            fi
+          ENDSSH
+
+      - name: Cleanup SSH key
+        if: always()
+        run: rm -f ~/.ssh/deploy_key
+
+      - name: Deployment Status
+        if: success()
+        run: echo "🚀 Deployment to oportunidadenislagrande.com successful!"
+
+      - name: Deployment Failed
+        if: failure()
+        run: |
+          echo "❌ Deployment failed! Please check the logs above."
+          exit 1
