@@ -2,8 +2,6 @@ import type React from "react"
 import type { Metadata } from "next"
 import { Geist, Geist_Mono, Montserrat } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
-import { NextIntlClientProvider } from 'next-intl'
-import { getMessages } from 'next-intl/server'
 import "./globals.css"
 
 const _geist = Geist({ subsets: ["latin"] })
@@ -93,18 +91,14 @@ const locales = ['en', 'es', 'pt', 'fr']
 
 export default async function RootLayout({
   children,
-  params: { locale }
+  params
 }: Readonly<{
   children: React.ReactNode
-  params: { locale: string }
+  params: Promise<{}>
 }>) {
-  // Validate that the incoming `locale` parameter is valid
-  // If invalid, default to 'en'
-  const validLocale = locales.includes(locale) ? locale : 'en'
-
-  // Providing all messages to the client
-  // side is the easiest way to get started
-  const messages = await getMessages()
+  // Root layout uses default locale 'en' for HTML lang attribute
+  // Actual locale is handled by components inside [locale] routes
+  const validLocale = 'en'
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "LodgingBusiness",
@@ -185,9 +179,7 @@ export default async function RootLayout({
         />
       </head>
       <body className={`${montserrat.variable} font-sans antialiased`}>
-        <NextIntlClientProvider messages={messages}>
         {children}
-        </NextIntlClientProvider>
         <Analytics />
       </body>
     </html>
