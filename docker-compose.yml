@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   web:
     build:
@@ -10,8 +8,10 @@ services:
     ports:
       - "3000:3000"
     environment:
-      - NODE_ENV=production
-      - NEXT_PUBLIC_DOMAIN=https://oportunidadenislagrande.com
+      - NODE_ENV=${NODE_ENV:-production}
+      - NEXT_PUBLIC_DOMAIN=${NEXT_PUBLIC_DOMAIN:-https://oportunidadenislagrande.com}
+    # Load environment variables from .env.production if it exists
+    # If the file doesn't exist, create it using: bash scripts/create-env-production.sh
     env_file:
       - .env.production
     networks:

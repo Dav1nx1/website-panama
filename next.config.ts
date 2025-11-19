@@ -7,6 +7,23 @@ const nextConfig: NextConfig = {
   // Enable standalone output for Docker deployment
   output: 'standalone',
 
+  // Skip linting and type checking during build for faster Docker builds
+  // These should be run in CI/CD pipelines instead
+  eslint: {
+    // Skip ESLint during builds when SKIP_ESLINT is set (e.g., in Docker)
+    // This significantly speeds up Docker builds
+    ignoreDuringBuilds: 
+      process.env.SKIP_ESLINT === 'true' || 
+      process.env.SKIP_ESLINT === '1',
+  },
+  typescript: {
+    // Skip TypeScript type checking during builds when SKIP_TYPE_CHECK is set (e.g., in Docker)
+    // This significantly speeds up Docker builds
+    ignoreBuildErrors: 
+      process.env.SKIP_TYPE_CHECK === 'true' || 
+      process.env.SKIP_TYPE_CHECK === '1',
+  },
+
   // SEO and Performance optimizations
   compress: true,
   poweredByHeader: false,
