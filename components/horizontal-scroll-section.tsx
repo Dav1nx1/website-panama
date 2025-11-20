@@ -84,24 +84,24 @@ export function HorizontalScrollSection() {
               <div className="grid h-full grid-cols-2 grid-rows-2 gap-0">
                 <div className="relative col-span-2 row-span-1">
                   <Image
-                    src="/luxury-modern-home-exterior-with-pool-and-lounge-c.jpg"
-                    alt="Exterior pool area"
+                    src="/image10.jpeg"
+                    alt="Property exterior and pool area"
                     fill
                     className="object-cover"
                   />
                 </div>
                 <div className="relative col-span-1 row-span-1">
                   <Image
-                    src="/stone-wall-texture-with-decorative-sphere.jpg"
-                    alt="Stone wall detail"
+                    src="/image11.jpeg"
+                    alt="Property detail"
                     fill
                     className="object-cover"
                   />
                 </div>
                 <div className="relative col-span-1 row-span-1">
                   <Image
-                    src="/modern-glass-railing-detail.jpg"
-                    alt="Glass railing detail"
+                    src="/image12.jpeg"
+                    alt="Property detail"
                     fill
                     className="object-cover"
                   />
@@ -124,12 +124,12 @@ export function HorizontalScrollSection() {
             </div>
           </div>
 
-          {/* Panel 2: Large living room image with thumbnails */}
+          {/* Panel 2: Large property image with thumbnails */}
           <div className="relative flex h-full w-screen flex-shrink-0 items-center justify-center bg-white">
             <div className="relative h-full w-full">
               <Image
-                src="/luxury-living-room-with-teal-cushions-white-sofa-w.jpg"
-                alt="Living room with teal accents"
+                src="/image7.jpeg"
+                alt="Property overview"
                 fill
                 className="object-cover"
               />
@@ -137,17 +137,17 @@ export function HorizontalScrollSection() {
               {/* Thumbnail previews - bottom right */}
               <div className="absolute bottom-8 right-8 flex gap-4">
                 <div className="relative h-24 w-32 overflow-hidden rounded-lg border-2 border-white shadow-lg">
-                  <Image src="/modern-home-office-with-wooden-desk.jpg" alt="Preview 1" fill className="object-cover" />
+                  <Image src="/image8.jpeg" alt="Preview 1" fill className="object-cover" />
                 </div>
                 <div className="relative h-24 w-32 overflow-hidden rounded-lg border-2 border-white shadow-lg">
-                  <Image src="/luxury-bedroom.png" alt="Preview 2" fill className="object-cover" />
+                  <Image src="/image5.jpeg" alt="Preview 2" fill className="object-cover" />
                 </div>
               </div>
 
               {/* Thumbnail preview - bottom left */}
               <div className="absolute bottom-8 left-8">
                 <div className="relative h-24 w-32 overflow-hidden rounded-lg border-2 border-white shadow-lg">
-                  <Image src="/modern-teal-living-room.png" alt="Previous" fill className="object-cover" />
+                  <Image src="/image2.jpeg" alt="Previous" fill className="object-cover" />
                 </div>
               </div>
             </div>
@@ -186,24 +186,24 @@ export function HorizontalScrollSection() {
               <div className="grid h-full grid-cols-2 grid-rows-3 gap-0">
                 <div className="relative col-span-2 row-span-2">
                   <Image
-                    src="/modern-luxury-home-exterior-with-stone-walls-glass.jpg"
-                    alt="Modern home exterior"
+                    src="/image1.jpeg"
+                    alt="Property exterior"
                     fill
                     className="object-cover"
                   />
                 </div>
                 <div className="relative col-span-1 row-span-1">
                   <Image
-                    src="/woman-relaxing-on-outdoor-lounge-chair-with-ocean-.jpg"
-                    alt="Relaxation area"
+                    src="/image10.jpeg"
+                    alt="Property area"
                     fill
                     className="object-cover"
                   />
                 </div>
                 <div className="relative col-span-1 row-span-1">
                   <Image
-                    src="/modern-bedroom-interior-with-ocean-view.jpg"
-                    alt="Bedroom view"
+                    src="/image11.jpeg"
+                    alt="Property view"
                     fill
                     className="object-cover"
                   />

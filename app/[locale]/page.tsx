@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     description: "Experience unparalleled luxury at Mea Suna Madeira. Private villa with infinity pool, home cinema, golf simulator, and panoramic ocean views.",
     images: [
       {
-        url: "/luxury-terrace-with-mountain-view.jpg",
+        url: "/601828177.jpg",
         width: 1200,
         height: 630,
         alt: "Luxury Villa Madeira with Ocean View",
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Luxury Villa Madeira | Private Ocean View Retreat",
     description: "Experience unparalleled luxury at Mea Suna Madeira. Private villa with infinity pool, home cinema, golf simulator, and panoramic ocean views.",
-    images: ["/luxury-terrace-with-mountain-view.jpg"],
+    images: ["/601828177.jpg"],
   },
   alternates: {
     canonical: "https://measunamadeira.com",

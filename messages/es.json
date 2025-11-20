@@ -157,5 +157,96 @@
     "loading": "Cargando...",
     "error": "Ocurrió un error",
     "retry": "Intentar de nuevo"
+  },
+  "propertySpecs": {
+    "title": "ESPECIFICACIONES DE LA PROPIEDAD",
+    "description": "Una oportunidad única de inversión frente al mar en Isla Grande, Colón. Esta propiedad excepcional cuenta con múltiples estructuras, acceso directo al océano y potencial de retorno de inversión garantizado.",
+    "propertyType": "Tipo de Propiedad",
+    "propertyTypeValue": "Complejo Turístico Frente al Mar",
+    "bedrooms": "Habitaciones Totales",
+    "bedroomsValue": "9 Habitaciones",
+    "structures": "Estructuras",
+    "structuresValue": "2 Casas Dúplex + 10 Cabañas",
+    "landSize": "Tamaño del Terreno",
+    "landSizeValue": "6,000 m²",
+    "location": "Ubicación",
+    "locationValue": "Isla Grande, Sector Colón",
+    "distance": "Distancia de Ciudad de Panamá",
+    "distanceValue": "1 Hora y Media",
+    "oceanAccess": "Acceso al Océano",
+    "oceanAccessValue": "Acceso Directo",
+    "keyFeaturesTitle": "Características Principales",
+    "feature1": "Acceso directo al océano con área de playa privada",
+    "feature2": "Piscina con bar y restaurante",
+    "feature3": "Cancha de voleibol para entretenimiento",
+    "feature4": "Dos casas dúplex con amenidades modernas",
+    "feature5": "10 cabañas individuales para máxima flexibilidad",
+    "feature6": "Casa grande de dos pisos con 3 habitaciones",
+    "feature7": "Cabaña con 2 habitaciones (1 grande con 4 camas, 1 pequeña)",
+    "feature8": "Perfecto para operación de hotel boutique o alquiler vacacional",
+    "guaranteedROI": "RETORNO DE INVERSIÓN GARANTIZADO",
+    "guaranteedROIDescription": "Esta propiedad lista para usar ofrece un potencial de ingresos excepcional con demanda de alquiler comprobada. Ideal para inversionistas que buscan una inversión rentable frente al mar en el creciente mercado turístico de Panamá."
+  },
+  "rooms": {
+    "title": "RESUMEN DE ALOJAMIENTOS",
+    "description": "Descubre nuestras opciones de alojamiento integrales diseñadas para máxima flexibilidad y potencial de ingresos.",
+    "totalBedrooms": "9 Habitaciones en Total",
+    "structures": {
+      "duplexHouses": {
+        "title": "Dos Casas Dúplex",
+        "description": "Modernas casas dúplex de dos pisos que ofrecen alojamientos cómodos y espaciosos con todas las amenidades modernas."
+      },
+      "cabins": {
+        "title": "10 Cabañas Individuales",
+        "description": "Alojamientos en cabañas flexibles perfectos para varias configuraciones de huéspedes y estrategias de alquiler."
+      },
+      "largeHouse": {
+        "title": "Casa Grande de Dos Pisos",
+        "description": "Casa principal espaciosa con 3 habitaciones, perfecta para familias o unidades de alquiler premium."
+      },
+      "cabin": {
+        "title": "Cabaña con 2 Habitaciones",
+        "description": "Cabaña única con 1 habitación grande con 4 camas y 1 habitación pequeña, ideal para grupos o familias extendidas."
+      }
+    }
+  },
+  "propertyBreakdown": {
+    "title": "DESGLOSE DE LA PROPIEDAD",
+    "description": "Un complejo turístico integral frente al mar que ofrece flexibilidad excepcional para operaciones de hotel boutique o alquileres vacacionales.",
+    "duplexHouses": {
+      "title": "Dos Casas Dúplex",
+      "description": "Modernas casas dúplex de dos pisos que proporcionan alojamientos cómodos con todas las amenidades modernas. Perfectas para familias o grupos que buscan privacidad y espacio.",
+      "details": "Múltiples habitaciones con baños privados"
+    },
+    "largeHouse": {
+      "title": "Casa Grande de Dos Pisos",
+      "description": "Casa principal espaciosa con 3 habitaciones, ideal para unidades de alquiler premium o alojamientos familiares. Ofrece vistas impresionantes y diseño moderno.",
+      "details": "3 Habitaciones | Diseño de Dos Pisos"
+    },
+    "cabin": {
+      "title": "Cabaña con 2 Habitaciones",
+      "description": "Cabaña única con 1 habitación grande con 4 camas y 1 habitación pequeña. Perfecta para grupos, familias extendidas o viajeros con presupuesto limitado.",
+      "details": "1 Habitación Grande (4 camas) + 1 Habitación Pequeña"
+    },
+    "cabins": {
+      "title": "10 Cabañas Individuales",
+      "description": "Alojamientos en cabañas flexibles que proporcionan máxima flexibilidad de alquiler. Cada cabaña se puede alquilar independientemente, permitiendo varias configuraciones de huéspedes y estrategias de precios.",
+      "details": "10 Unidades Individuales | Opciones de Alquiler Flexibles"
+    },
+    "locationTitle": "UBICACIÓN PRIVILEGIADA",
+    "location": {
+      "label": "Ubicación",
+      "value": "Isla Grande, Sector Colón"
+    },
+    "distance": {
+      "label": "Distancia de Ciudad de Panamá",
+      "value": "1 Hora y Media"
+    },
+    "oceanAccess": {
+      "label": "Acceso al Océano",
+      "value": "Acceso Directo"
+    },
+    "totalCapacity": "CAPACIDAD TOTAL DE LA PROPIEDAD",
+    "totalCapacityDescription": "9 Habitaciones | 2 Casas Dúplex | 10 Cabañas | 6,000 m² | Acceso Directo al Océano"
   }
 }

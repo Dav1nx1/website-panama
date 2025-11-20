@@ -44,7 +44,7 @@ export function AmenitiesSection() {
             {/* Top right - Games */}
             <div className="col-span-2 relative h-64 lg:h-80 overflow-hidden rounded-lg group">
               <Image
-                src="/billiard-balls-on-teal-table.jpg"
+                src="/695532592.jpg"
                 alt="Games room with billiards"
                 fill
                 className="object-cover transition-transform duration-700 group-hover:scale-110"
@@ -56,7 +56,7 @@ export function AmenitiesSection() {
             {/* Bottom left - Cinema */}
             <div className="relative h-64 lg:h-80 overflow-hidden rounded-lg group">
               <Image
-                src="/luxury-home-cinema-theater.jpg"
+                src="/695531913.jpg"
                 alt="Home cinema"
                 fill
                 className="object-cover transition-transform duration-700 group-hover:scale-110"
@@ -67,7 +67,7 @@ export function AmenitiesSection() {
             {/* Bottom right - Spa */}
             <div className="relative h-64 lg:h-80 overflow-hidden rounded-lg group">
               <Image
-                src="/modern-spa-with-circular-led-lights.jpg"
+                src="/695532344.jpg"
                 alt="Spa and wellness"
                 fill
                 className="object-cover transition-transform duration-700 group-hover:scale-110"

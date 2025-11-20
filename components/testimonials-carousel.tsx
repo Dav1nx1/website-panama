@@ -10,21 +10,21 @@ const testimonials = [
     quote:
       "Our family had an amazing time! The kids were entertained with table soccer and billiards, while I found peace in the tranquil garden. The house offers so much, from relaxing in the sauna to enjoying movie nights in the cinema. It truly felt like having our own private retreat. Perfect for a family getaway!",
     author: "Beatrix Aldridge",
-    image: "/woman-relaxing-on-lounge-chair-aerial-view.jpg",
+    image: "/695532905.jpg",
   },
   {
     id: 2,
     quote:
-      "We couldn't have asked for a better escape to Madeira. The stunning views, the privacy of the island, and the luxurious amenities made just as much of an impression as the mornings with coffee on the terrace, cooling off in the pool, and the evenings unwinding. The house exceeded our expectations and gave us everything we were looking for.",
+      "We couldn't have asked for a better escape to Isla Grande. The stunning ocean views, the privacy of the property, and the luxurious amenities made just as much of an impression as the mornings with coffee on the terrace, cooling off in the pool, and the evenings unwinding. The property exceeded our expectations and gave us everything we were looking for.",
     author: "James Brown",
-    image: "/luxury-villa-terrace-with-ocean-view.jpg",
+    image: "/695534207.jpg",
   },
   {
     id: 3,
     quote:
       "An unforgettable experience in paradise. Every detail was thoughtfully designed for comfort and luxury. The infinity pool, the gardens, and the breathtaking views made our stay truly magical.",
     author: "Sophie Martinez",
-    image: "/infinity-pool-with-sunset-ocean-view.jpg",
+    image: "/695534850.jpg",
   },
 ]
 

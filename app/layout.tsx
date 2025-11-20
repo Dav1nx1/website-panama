@@ -56,7 +56,7 @@ export const metadata: Metadata = {
     description: "Immerse yourself in the serene oasis of Mea Suna Madeira, where comfort and style coexist in perfect harmony. Luxury private villa with panoramic ocean views.",
     images: [
       {
-        url: "/luxury-terrace-with-mountain-view.jpg",
+        url: "/601828177.jpg",
         width: 1200,
         height: 630,
         alt: "Mea Suna Madeira - Luxury Villa with Ocean View",
@@ -67,7 +67,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Mea Suna Madeira - Hidden Paradise | Luxury Villa Madeira",
     description: "Immerse yourself in the serene oasis of Mea Suna Madeira, where comfort and style coexist in perfect harmony.",
-    images: ["/luxury-terrace-with-mountain-view.jpg"],
+    images: ["/601828177.jpg"],
     creator: "@measunamadeira",
   },
   verification: {
@@ -107,9 +107,9 @@ export default async function RootLayout({
     "url": "https://measunamadeira.com",
     "logo": "https://measunamadeira.com/logo.png",
     "image": [
-      "https://measunamadeira.com/luxury-terrace-with-mountain-view.jpg",
-      "https://measunamadeira.com/luxury-ocean-view-terrace-with-woman-in-white-dres.jpg",
-      "https://measunamadeira.com/luxury-living-room-with-teal-cushions-white-sofa-w.jpg"
+      "https://measunamadeira.com/601828177.jpg",
+      "https://measunamadeira.com/601828180.jpg",
+      "https://measunamadeira.com/671353553.jpg"
     ],
     "address": {
       "@type": "PostalAddress",

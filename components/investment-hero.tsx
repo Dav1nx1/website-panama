@@ -12,8 +12,8 @@ export function InvestmentHero() {
     <div className="relative h-screen w-full overflow-hidden">
       <div className="absolute inset-0">
         <img
-          src="/modern-luxury-home-exterior-with-stone-walls-glass.jpg"
-          alt="Casa Pacífico Panama exterior"
+          src="/image5.jpeg"
+          alt="Investment property exterior"
           className="h-full w-full object-cover"
         />
         <div className="absolute inset-0 bg-black/40" />
@@ -71,8 +71,8 @@ export function InvestmentHero() {
           </span>
         </h1>
         <p className="max-w-2xl text-pretty text-sm font-light leading-relaxed text-white/90 md:text-base lg:text-lg">
-          Explore the complete investment details for this exceptional Panama beachfront property. Premium location,
-          proven income potential, and luxury amenities.
+          Exceptional beachfront investment in Isla Grande, Colon. 9 bedrooms across multiple structures, 6,000 m² property with pool, bar, restaurant, and volleyball court. 
+          <span className="block mt-2 font-semibold text-cyan-400">Just 1.5 hours from Panama City | Guaranteed ROI</span>
         </p>
 
         <div className="absolute bottom-12 left-1/2 -translate-x-1/2 flex flex-col items-center gap-3">

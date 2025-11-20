@@ -7,24 +7,38 @@ import { ChevronLeft, ChevronRight } from "lucide-react"
 const slides = [
   {
     id: 1,
-    title: "GARDEN",
+    title: "PROPERTY OVERVIEW",
     description:
-      "Explore our lush garden, spanning four terraces and flourishing with over 4,000 evergreen and colorful plants year-round. Unwind under bougainvillea pergolas with hammocks and sun loungers, offering breathtaking views of the ocean and coastal beauty.",
-    image: "/purple-bougainvillea-garden-with-ocean-view.jpg",
+      "Discover our exceptional beachfront property in Isla Grande, Colon. With 9 bedrooms, 2 duplex houses, and 10 cabins on 6,000 m², this turnkey investment offers unmatched potential.",
+    image: "/image1.jpeg",
   },
   {
     id: 2,
-    title: "POOL",
+    title: "POOL & FACILITIES",
     description:
-      "Immerse yourself in our stunning infinity pool with panoramic ocean views, surrounded by modern architecture and natural beauty.",
-    image: "/infinity-pool-with-ocean-view-and-modern-pergola.jpg",
+      "Enjoy our stunning pool area with bar, restaurant, and volleyball court. Perfect for guests seeking relaxation and entertainment in a tropical paradise setting.",
+    image: "/image2.jpeg",
   },
   {
     id: 3,
-    title: "SCENERY",
+    title: "ACCOMMODATIONS",
     description:
-      "Experience breathtaking views of our property nestled in the Madeira coastline, showcasing modern luxury architecture in harmony with nature.",
-    image: "/aerial-view-luxury-villa-at-dusk-with-lights.jpg",
+      "Experience our spacious accommodations featuring modern design, comfortable living spaces, and direct ocean access. Ideal for boutique hotel operations or vacation rentals.",
+    image: "/image5.jpeg",
+  },
+  {
+    id: 4,
+    title: "TROPICAL PARADISE",
+    description:
+      "Immerse yourself in the natural beauty of Isla Grande. Lush tropical surroundings, pristine beaches, and breathtaking ocean views create the perfect investment opportunity.",
+    image: "/image7.jpeg",
+  },
+  {
+    id: 5,
+    title: "RESORT COMPLEX",
+    description:
+      "Our complete resort complex offers everything needed for immediate operation. Multiple structures, premium amenities, and guaranteed return on investment potential.",
+    image: "/image8.jpeg",
   },
 ]
 

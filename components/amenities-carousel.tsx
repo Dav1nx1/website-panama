@@ -10,21 +10,21 @@ const amenities = [
     title: "FITNESS & SPA",
     description:
       "Stay active in our spacious fitness room with stunning sea views, equipped with multiple cardio, strength and bodyweight training devices. After your workout, unwind in our large sauna and adjoining relaxation room for the perfect revitalization experience.",
-    image: "/luxury-fitness-room-with-treadmill-and-spa-area.jpg",
+    image: "/695531455.jpg",
   },
   {
     id: 2,
     title: "HOME CINEMA",
     description:
       "Enjoy movie nights in our state-of-the-art home cinema with premium sound system and comfortable seating for the ultimate entertainment experience.",
-    image: "/luxury-home-cinema-with-large-screen.jpg",
+    image: "/695531913.jpg",
   },
   {
     id: 3,
     title: "GOLF SIMULATOR",
     description:
       "Perfect your swing with our high-end golf simulator in the '19th hole' bar, featuring realistic courses and professional-grade equipment.",
-    image: "/modern-golf-simulator-room.jpg",
+    image: "/695532127.jpg",
   },
 ]
 

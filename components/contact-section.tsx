@@ -30,7 +30,7 @@ export function ContactSection() {
       {/* Background image */}
       <div className="absolute inset-0">
         <Image
-          src="/luxury-terrace-with-mountain-view.jpg"
+          src="/image12.jpeg"
           alt="Contact background"
           fill
           className="object-cover parallax-contact-bg"

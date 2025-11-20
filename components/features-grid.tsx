@@ -16,22 +16,22 @@ const features: FeatureCard[] = [
     label: "INVESTMENT",
     title: "PROVEN ROI POTENTIAL",
     description:
-      "Generate $180,000-$240,000 in annual rental income with 60-70% occupancy rates. This turnkey property offers immediate cash flow with 5-7% net returns plus 4-6% annual appreciation in Panama's growing coastal market.",
-    image: "/modern-luxury-interior-with-teal-accents.jpg",
+      "Generate exceptional rental income with this turnkey beachfront property. With 9 bedrooms, multiple structures, and premium amenities, this investment offers guaranteed ROI potential. Perfect for boutique hotel operations or vacation rentals in Panama's growing tourism market.",
+    image: "/601828206.jpg",
   },
   {
     id: "location",
     label: "",
     title: "PRIME BEACHFRONT LOCATION",
-    description: "",
-    image: "/luxury-dining-room-with-teal-chairs-and-ocean-view.jpg",
+    description: "Located in Isla Grande, Colon sector - just 1.5 hours from Panama City. 6,000 m² property with direct ocean access, perfect for investors seeking a profitable beachfront investment.",
+    image: "/671338991.jpg",
   },
   {
     id: "amenities",
     label: "",
-    title: "LUXURY AMENITIES",
-    description: "",
-    image: "/bright-modern-living-space-with-ocean-views.jpg",
+    title: "COMPLETE RESORT FACILITIES",
+    description: "Pool, bar, restaurant, volleyball court, and direct ocean access. All amenities included for immediate operation as a boutique hotel or vacation rental complex.",
+    image: "/671344178.jpg",
   },
 ]
 

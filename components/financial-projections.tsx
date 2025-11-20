@@ -8,10 +8,13 @@ export function FinancialProjections() {
       <div className="container mx-auto max-w-7xl">
         <div className="text-center mb-16">
           <h2 className="text-5xl lg:text-6xl font-light tracking-wide text-[#0a1628] mb-6">FINANCIAL PROJECTIONS</h2>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Based on current market data and comparable properties in the Coronado area, with conservative estimates for
+          <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-4">
+            Based on current market data and comparable properties in the Isla Grande, Colon area, with conservative estimates for
             occupancy and rates.
           </p>
+          <div className="inline-block bg-green-100 border-2 border-green-500 text-green-800 px-6 py-3 rounded-lg">
+            <p className="font-semibold text-lg">✓ GUARANTEED RETURN ON INVESTMENT</p>
+          </div>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">

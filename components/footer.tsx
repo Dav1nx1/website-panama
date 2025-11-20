@@ -22,7 +22,7 @@ export function Footer() {
           <div className="flex items-center gap-4">
             <div className="relative w-24 h-24">
               <Image
-                src="/luxury-award-badge-gold-2025.jpg"
+                src="/754374006.jpg"
                 alt="Best Luxury Beachfront Property Panama 2025"
                 fill
                 className="object-contain"

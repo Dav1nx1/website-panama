@@ -1,32 +1,44 @@
 "use client"
 
 import { useState } from "react"
+import { useTranslations } from 'next-intl'
 
 const rooms = [
   {
-    id: "master",
-    name: "MASTER BEDROOM",
-    image: "/luxury-master-bedroom-with-ocean-view-teal-accents.jpg",
-    description: "The pinnacle of luxury and comfort with panoramic ocean views",
+    id: "duplex",
+    name: "DUPLEX HOUSES",
+    image: "/image8.jpeg",
+    description: "Two modern duplex houses offering comfortable accommodations with all amenities",
+    count: "2 Houses",
   },
   {
-    id: "seaview",
-    name: "SEA VIEW BEDROOM",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-LA4LMop5rtaQVfBcIjSEWvSoZ3RGe4.png",
-    description: "Wake up to breathtaking ocean vistas in this serene retreat",
+    id: "cabins",
+    name: "CABINS",
+    image: "/image7.jpeg",
+    description: "10 individual cabins providing flexible accommodation options for various guest configurations",
+    count: "10 Cabins",
   },
   {
-    id: "sunset",
-    name: "SUNSET BEDROOM",
-    image: "/luxury-bedroom-with-sunset-view-warm-lighting.jpg",
-    description: "Experience magical sunsets from your private sanctuary",
+    id: "largehouse",
+    name: "LARGE HOUSE",
+    image: "/image5.jpeg",
+    description: "Spacious two-story house with 3 bedrooms, perfect for families or premium rental units",
+    count: "3 Bedrooms",
+  },
+  {
+    id: "cabin",
+    name: "SPECIAL CABIN",
+    image: "/image2.jpeg",
+    description: "Unique cabin with 2 bedrooms: 1 large bedroom with 4 beds and 1 small bedroom, ideal for groups",
+    count: "2 Bedrooms",
   },
 ]
 
 export function RoomsShowcase() {
-  const [activeRoom, setActiveRoom] = useState("seaview")
+  const t = useTranslations('rooms')
+  const [activeRoom, setActiveRoom] = useState("duplex")
 
-  const currentRoom = rooms.find((room) => room.id === activeRoom) || rooms[1]
+  const currentRoom = rooms.find((room) => room.id === activeRoom) || rooms[0]
 
   return (
     <section className="relative min-h-screen bg-[#0a1628] py-20 px-4 md:px-8 lg:px-12">
@@ -34,12 +46,13 @@ export function RoomsShowcase() {
         {/* Header */}
         <div className="mb-12 text-center">
           <h2 className="mb-4 text-4xl font-light tracking-[0.15em] text-white md:text-5xl lg:text-6xl text-balance">
-            REST IN ULTIMATE
-            <br />
-            COMFORT
+            {t('title')}
           </h2>
-          <p className="mx-auto max-w-3xl text-sm font-light leading-relaxed text-white/80 md:text-base text-pretty">
-            Each bedroom is a peaceful retreat, designed to offer you the perfect night's rest.
+          <p className="mx-auto max-w-3xl text-sm font-light leading-relaxed text-white/80 md:text-base text-pretty mb-4">
+            {t('description')}
+          </p>
+          <p className="text-2xl font-light text-cyan-400 tracking-wide">
+            {t('totalBedrooms')}
           </p>
         </div>
 
@@ -96,6 +109,9 @@ export function RoomsShowcase() {
 
             {/* Room Description Overlay */}
             <div className="absolute bottom-8 left-8 right-8 z-10">
+              <div className="mb-2">
+                <span className="text-cyan-400 text-sm font-semibold tracking-wider">{currentRoom.count}</span>
+              </div>
               <p className="text-lg font-light text-white/90 md:text-xl text-balance">{currentRoom.description}</p>
             </div>
           </div>
@@ -106,8 +122,8 @@ export function RoomsShowcase() {
           </div>
         </div>
 
-        {/* Room Features */}
-        <div className="mt-16 grid gap-8 md:grid-cols-3">
+        {/* Property Highlights */}
+        <div className="mt-16 grid gap-8 md:grid-cols-4">
           <div className="text-center">
             <div className="mb-4 flex justify-center">
               <div className="flex h-16 w-16 items-center justify-center rounded-full border border-white/20">
@@ -127,8 +143,8 @@ export function RoomsShowcase() {
                 </svg>
               </div>
             </div>
-            <h3 className="mb-2 text-lg font-light tracking-wider text-white">SPACIOUS DESIGN</h3>
-            <p className="text-sm font-light text-white/70">Generous layouts with premium furnishings</p>
+            <h3 className="mb-2 text-lg font-light tracking-wider text-white">MULTIPLE STRUCTURES</h3>
+            <p className="text-sm font-light text-white/70">2 Duplex Houses + 10 Cabins</p>
           </div>
 
           <div className="text-center">
@@ -156,8 +172,8 @@ export function RoomsShowcase() {
                 </svg>
               </div>
             </div>
-            <h3 className="mb-2 text-lg font-light tracking-wider text-white">OCEAN VIEWS</h3>
-            <p className="text-sm font-light text-white/70">Floor-to-ceiling windows with stunning vistas</p>
+            <h3 className="mb-2 text-lg font-light tracking-wider text-white">OCEAN ACCESS</h3>
+            <p className="text-sm font-light text-white/70">Direct access to the ocean</p>
           </div>
 
           <div className="text-center">
@@ -179,8 +195,31 @@ export function RoomsShowcase() {
                 </svg>
               </div>
             </div>
-            <h3 className="mb-2 text-lg font-light tracking-wider text-white">LUXURY AMENITIES</h3>
-            <p className="text-sm font-light text-white/70">En-suite bathrooms with premium fixtures</p>
+            <h3 className="mb-2 text-lg font-light tracking-wider text-white">FACILITIES</h3>
+            <p className="text-sm font-light text-white/70">Pool, Bar, Restaurant, Volleyball</p>
+          </div>
+
+          <div className="text-center">
+            <div className="mb-4 flex justify-center">
+              <div className="flex h-16 w-16 items-center justify-center rounded-full border border-white/20">
+                <svg
+                  className="h-8 w-8 text-cyan-400"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={1.5}
+                    d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <h3 className="mb-2 text-lg font-light tracking-wider text-white">INVESTMENT</h3>
+            <p className="text-sm font-light text-white/70">Guaranteed ROI Potential</p>
           </div>
         </div>
       </div>

@@ -157,5 +157,96 @@
     "loading": "Loading...",
     "error": "An error occurred",
     "retry": "Try again"
+  },
+  "propertySpecs": {
+    "title": "PROPERTY SPECIFICATIONS",
+    "description": "A unique beachfront investment opportunity in Isla Grande, Colon. This exceptional property features multiple structures, direct ocean access, and guaranteed return on investment potential.",
+    "propertyType": "Property Type",
+    "propertyTypeValue": "Beachfront Resort Complex",
+    "bedrooms": "Total Bedrooms",
+    "bedroomsValue": "9 Bedrooms",
+    "structures": "Structures",
+    "structuresValue": "2 Duplex Houses + 10 Cabins",
+    "landSize": "Land Size",
+    "landSizeValue": "6,000 m²",
+    "location": "Location",
+    "locationValue": "Isla Grande, Colon Sector",
+    "distance": "Distance from Panama City",
+    "distanceValue": "1.5 Hours",
+    "oceanAccess": "Ocean Access",
+    "oceanAccessValue": "Direct Access",
+    "keyFeaturesTitle": "Key Features",
+    "feature1": "Direct ocean access with private beach area",
+    "feature2": "Swimming pool with bar and restaurant",
+    "feature3": "Volleyball court for entertainment",
+    "feature4": "Two duplex houses with modern amenities",
+    "feature5": "10 individual cabins for maximum flexibility",
+    "feature6": "Large two-story house with 3 bedrooms",
+    "feature7": "Cabin with 2 bedrooms (1 large with 4 beds, 1 small)",
+    "feature8": "Perfect for boutique hotel or vacation rental operation",
+    "guaranteedROI": "GUARANTEED RETURN ON INVESTMENT",
+    "guaranteedROIDescription": "This turnkey property offers exceptional income potential with proven rental demand. Ideal for investors seeking a profitable beachfront investment in Panama's growing tourism market."
+  },
+  "rooms": {
+    "title": "ACCOMMODATIONS OVERVIEW",
+    "description": "Discover our comprehensive accommodation options designed for maximum flexibility and income potential.",
+    "totalBedrooms": "9 Total Bedrooms",
+    "structures": {
+      "duplexHouses": {
+        "title": "Two Duplex Houses",
+        "description": "Modern two-story duplex houses offering comfortable and spacious accommodations with all modern amenities."
+      },
+      "cabins": {
+        "title": "10 Individual Cabins",
+        "description": "Flexible cabin accommodations perfect for various guest configurations and rental strategies."
+      },
+      "largeHouse": {
+        "title": "Large Two-Story House",
+        "description": "Spacious main house featuring 3 bedrooms, perfect for families or premium rental units."
+      },
+      "cabin": {
+        "title": "Cabin with 2 Bedrooms",
+        "description": "Unique cabin featuring 1 large bedroom with 4 beds and 1 small bedroom, ideal for groups or extended families."
+      }
+    }
+  },
+  "propertyBreakdown": {
+    "title": "PROPERTY BREAKDOWN",
+    "description": "A comprehensive beachfront resort complex offering exceptional flexibility for boutique hotel operations or vacation rentals.",
+    "duplexHouses": {
+      "title": "Two Duplex Houses",
+      "description": "Modern two-story duplex houses providing comfortable accommodations with all modern amenities. Perfect for families or groups seeking privacy and space.",
+      "details": "Multiple bedrooms with private bathrooms"
+    },
+    "largeHouse": {
+      "title": "Large Two-Story House",
+      "description": "Spacious main house featuring 3 bedrooms, ideal for premium rental units or family accommodations. Offers stunning views and modern design.",
+      "details": "3 Bedrooms | Two-Story Design"
+    },
+    "cabin": {
+      "title": "Cabin with 2 Bedrooms",
+      "description": "Unique cabin featuring 1 large bedroom with 4 beds and 1 small bedroom. Perfect for groups, extended families, or budget-conscious travelers.",
+      "details": "1 Large Bedroom (4 beds) + 1 Small Bedroom"
+    },
+    "cabins": {
+      "title": "10 Individual Cabins",
+      "description": "Flexible cabin accommodations providing maximum rental flexibility. Each cabin can be rented independently, allowing for various guest configurations and pricing strategies.",
+      "details": "10 Individual Units | Flexible Rental Options"
+    },
+    "locationTitle": "PRIME LOCATION",
+    "location": {
+      "label": "Location",
+      "value": "Isla Grande, Colon Sector"
+    },
+    "distance": {
+      "label": "Distance from Panama City",
+      "value": "1.5 Hours"
+    },
+    "oceanAccess": {
+      "label": "Ocean Access",
+      "value": "Direct Access"
+    },
+    "totalCapacity": "TOTAL PROPERTY CAPACITY",
+    "totalCapacityDescription": "9 Bedrooms | 2 Duplex Houses | 10 Cabins | 6,000 m² | Direct Ocean Access"
   }
 }

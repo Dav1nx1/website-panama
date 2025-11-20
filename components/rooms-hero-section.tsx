@@ -12,7 +12,7 @@ export function RoomsHeroSection() {
     <div className="relative h-screen w-full overflow-hidden">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0">
-        <img src="/luxury-bedroom-with-ocean-view-and-modern-design.jpg" alt="Luxury bedroom" className="h-full w-full object-cover" />
+        <img src="/image1.jpeg" alt="Property accommodations" className="h-full w-full object-cover" />
         <div className="absolute inset-0 bg-black/40" />
       </div>
 

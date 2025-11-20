@@ -13,8 +13,8 @@ export function HeroSection() {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0">
         <img
-          src="/modern-luxury-kitchen-with-dining-area-and-large-w.jpg"
-          alt="Madeira luxury interior"
+          src="/image4.jpeg"
+          alt="Luxury beachfront property in Isla Grande, Colon"
           className="h-full w-full object-cover"
         />
         <div className="absolute inset-0 bg-black/30" />
@@ -77,8 +77,8 @@ export function HeroSection() {
           </span>
         </h1>
         <p className="max-w-2xl text-pretty text-sm font-light leading-relaxed text-white/90 md:text-base lg:text-lg">
-          Discover an exclusive beachfront property opportunity on Panama's Pacific coast. Luxury living meets
-          exceptional rental income potential.
+          Exclusive beachfront investment opportunity in Isla Grande, Colon. 9 bedrooms, 2 duplex houses, 10 cabins on 6,000 m² with direct ocean access. 
+          <span className="block mt-2 font-semibold text-cyan-400">Guaranteed Return on Investment</span>
         </p>
 
         {/* Scroll Down Indicator */}

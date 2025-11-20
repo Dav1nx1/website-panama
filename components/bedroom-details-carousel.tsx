@@ -7,38 +7,50 @@ import { ChevronLeft, ChevronRight } from "lucide-react"
 const bedrooms = [
   {
     id: 1,
-    name: "MASTER BEDROOM",
+    name: "DUPLEX HOUSES",
     description:
-      "Experience unparalleled luxury in our master suite, where sophistication meets comfort. Wake up to breathtaking ocean views through expansive windows, and enjoy your private sanctuary designed for ultimate relaxation. The spacious layout features premium furnishings and elegant design touches throughout.",
-    features: ["PANORAMIC OCEAN VIEW BALCONY", "ENSUITE LUXURY BATHROOM", "WALK-IN CLOSET SPACE"],
+      "Two modern duplex houses offering comfortable and spacious accommodations with all modern amenities. Each duplex provides multiple bedrooms with private bathrooms, perfect for families or groups seeking privacy and space. Ideal for premium rental units or boutique hotel operations.",
+    features: ["TWO-STORY DESIGN", "MULTIPLE BEDROOMS", "PRIVATE BATHROOMS", "MODERN AMENITIES"],
     images: [
-      "/luxury-master-bedroom-with-ocean-view-teal-accents.jpg",
-      "/luxury-bedroom-with-ocean-view-and-modern-design.jpg",
-      "/modern-luxury-home-exterior-with-stone-walls-glass.jpg",
+      "/671345275.jpg",
+      "/671347648.jpg",
+      "/671349312.jpg",
     ],
   },
   {
     id: 2,
-    name: "SUNSET VIEW BEDROOM",
+    name: "LARGE TWO-STORY HOUSE",
     description:
-      "As the day winds down, the sunset bedroom welcomes you with its warm hues and inviting atmosphere. Golden light floods the space as the sun sets, creating a serene retreat. Step out onto the balcony, where comfortable seating invites you to unwind and savor the tranquil evening.",
-    features: ["SUNSET VIEW BALCONY WITH SEATS", "PRIVATE BATHROOM", "AMPLE CLOSET SPACE"],
+      "Spacious main house featuring 3 bedrooms, perfect for families or premium rental units. This two-story house offers stunning views, modern design, and comfortable living spaces. Ideal for guests seeking a more traditional home experience with all the comforts of a luxury vacation rental.",
+    features: ["3 BEDROOMS", "TWO-STORY DESIGN", "SPACIOUS LAYOUT", "PREMIUM ACCOMMODATIONS"],
     images: [
-      "/luxury-bedroom-with-sunset-view-warm-lighting.jpg",
-      "/luxury-ocean-view-terrace-with-woman-in-white-dres.jpg",
-      "/modern-luxury-home-exterior-with-stone-walls-glass.jpg",
+      "/671347785.jpg",
+      "/601828180.jpg",
+      "/671349312.jpg",
     ],
   },
   {
     id: 3,
-    name: "SEA VIEW BEDROOM",
+    name: "CABIN WITH 2 BEDROOMS",
     description:
-      "Immerse yourself in coastal tranquility with our sea view bedroom. Floor-to-ceiling windows frame the endless blue horizon, while the carefully curated interior design creates a peaceful haven. Modern amenities blend seamlessly with natural elements for a truly rejuvenating experience.",
-    features: ["DIRECT SEA VIEW WINDOWS", "PRIVATE ENSUITE BATHROOM", "SPACIOUS CLOSET AREA"],
+      "Unique cabin featuring 1 large bedroom with 4 beds and 1 small bedroom, ideal for groups or extended families. This flexible accommodation option provides comfortable sleeping arrangements for multiple guests while maintaining a cozy, intimate atmosphere. Perfect for budget-conscious travelers or large groups.",
+    features: ["1 LARGE BEDROOM (4 BEDS)", "1 SMALL BEDROOM", "GROUP ACCOMMODATIONS", "FLEXIBLE LAYOUT"],
     images: [
-      "/luxury-bedroom-with-ocean-view-and-modern-design.jpg",
-      "/luxury-master-bedroom-with-ocean-view-teal-accents.jpg",
-      "/bright-modern-living-space-with-ocean-views.jpg",
+      "/671347648.jpg",
+      "/671345275.jpg",
+      "/671344178.jpg",
+    ],
+  },
+  {
+    id: 4,
+    name: "10 INDIVIDUAL CABINS",
+    description:
+      "Ten individual cabins providing maximum rental flexibility. Each cabin can be rented independently, allowing for various guest configurations and pricing strategies. Perfect for boutique hotel operations, group retreats, or flexible vacation rental management. Each unit offers privacy and independence while sharing common amenities.",
+    features: ["10 INDIVIDUAL UNITS", "FLEXIBLE RENTAL OPTIONS", "INDEPENDENT ACCESS", "SHARED AMENITIES"],
+    images: [
+      "/671344178.jpg",
+      "/671353553.jpg",
+      "/671376659.jpg",
     ],
   },
 ]

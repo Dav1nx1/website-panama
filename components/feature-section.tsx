@@ -3,7 +3,7 @@
 import { useState } from "react"
 
 export function FeatureSection() {
-  const [isPlaying, setIsPlaying] = useState(false)
+  const [isPlaying, setIsPlaying] = useState(true)
 
   const handlePlayClick = () => {
     setIsPlaying(true)
@@ -21,10 +21,8 @@ export function FeatureSection() {
           </h2>
 
           <p className="mx-auto max-w-4xl text-base leading-relaxed text-white/90 md:text-lg lg:text-xl">
-            Casa Pacífico Panama offers exceptional income potential on Panama's Pacific coast. With premium amenities
-            including a world-class fitness center, infinity pool, and modern entertainment spaces, this property
-            commands top-tier nightly rates of $800-$1,200. Perfect for boutique hotel operation or luxury vacation
-            rentals.
+            This exceptional beachfront property in Isla Grande, Colon offers unmatched income potential. With 9 bedrooms, 2 duplex houses, 10 cabins, pool, bar, restaurant, and volleyball court on 6,000 m², this turnkey investment property is perfect for boutique hotel operations or vacation rentals. 
+            <span className="block mt-3 font-semibold text-cyan-400">Guaranteed Return on Investment | Direct Ocean Access | 1.5 Hours from Panama City</span>
           </p>
 
           {/* Play Button Icon */}
@@ -42,8 +40,8 @@ export function FeatureSection() {
           <div className="relative overflow-hidden rounded-2xl shadow-2xl">
             {!isPlaying ? (
               <img
-                src="/luxury-ocean-view-terrace-with-woman-in-white-dres.jpg"
-                alt="Luxury terrace with ocean view at Mea Suna Madeira"
+                src="/601828180.jpg"
+                alt="Luxury beachfront property in Isla Grande, Colon"
                 className="h-auto w-full object-cover"
               />
             ) : (
@@ -51,9 +49,10 @@ export function FeatureSection() {
                 className="h-auto w-full object-cover"
                 controls
                 autoPlay
-                poster="/luxury-ocean-view-terrace-with-woman-in-white-dres.jpg"
+                muted
+                poster="/601828180.jpg"
               >
-                <source src="/videos/madeira-feature.mp4" type="video/mp4" />
+                <source src="/Cabañas.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
             )}

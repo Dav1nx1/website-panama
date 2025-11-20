@@ -21,16 +21,16 @@ export function OperationalModels() {
       icon: Repeat,
       title: "Vacation Rental (Airbnb/VRBO)",
       description:
-        "List on major vacation rental platforms. Flexible operation with ability to block personal use dates.",
-      pros: ["Flexible personal use", "Lower management costs", "Direct guest relationships", "Higher nightly rates"],
+        "List on major vacation rental platforms. With 9 bedrooms across multiple structures, you can rent individual units or the entire property. Flexible operation with ability to block personal use dates.",
+      pros: ["Flexible personal use", "Lower management costs", "Direct guest relationships", "Higher nightly rates", "Multiple unit flexibility"],
       income: "$180,000 - $220,000/year",
     },
     {
       icon: Home,
       title: "Hybrid Model",
       description:
-        "Combine personal use with rental income. Use property 4-6 weeks per year while generating rental revenue.",
-      pros: ["Personal vacation home", "Offset ownership costs", "Tax advantages", "Flexible scheduling"],
+        "Combine personal use with rental income. Use property 4-6 weeks per year while generating rental revenue. Perfect for investors who want a vacation home that pays for itself.",
+      pros: ["Personal vacation home", "Offset ownership costs", "Tax advantages", "Flexible scheduling", "Guaranteed ROI"],
       income: "$120,000 - $160,000/year",
     },
   ]
@@ -40,10 +40,13 @@ export function OperationalModels() {
       <div className="container mx-auto max-w-7xl">
         <div className="text-center mb-16">
           <h2 className="text-5xl lg:text-6xl font-light tracking-wide text-[#0a1628] mb-6">OPERATIONAL MODELS</h2>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+          <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-4">
             Choose the operation model that best fits your investment goals. Each approach offers unique benefits and
-            income potential.
+            income potential. With 9 bedrooms, 2 duplex houses, and 10 cabins, this property offers exceptional flexibility.
           </p>
+          <div className="inline-block bg-cyan-100 border-2 border-cyan-500 text-cyan-800 px-6 py-3 rounded-lg">
+            <p className="font-semibold">Multiple Revenue Streams | Guaranteed ROI</p>
+          </div>
         </div>
 
         <div className="grid lg:grid-cols-3 gap-8">
