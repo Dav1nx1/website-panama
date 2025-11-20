@@ -14,8 +14,8 @@ export function Footer() {
               </svg>
             </div>
             <div className="text-sm">
-              <div className="font-light tracking-wider">CASA PACÍFICO</div>
-              <div className="font-light tracking-wider">PANAMA</div>
+              <div className="font-light tracking-wider">SINGULAR AGENCY</div>
+              <div className="font-light tracking-wider">COLOMBIA</div>
             </div>
           </div>
 
@@ -49,18 +49,11 @@ export function Footer() {
                 <path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.6 0 12 0zm0 22C6.5 22 2 17.5 2 12S6.5 2 12 2s10 4.5 10 10-4.5 10-10 10z" />
               </svg>
             </a>
-            <a
-              href="#"
-              className="hover:text-cyan-400 transition-colors duration-300 text-xs font-semibold border border-white px-2 py-1 rounded"
-              aria-label="Booking.com"
-            >
-              B.
-            </a>
           </div>
         </div>
 
         <div className="text-center mt-8 pt-8 border-t border-white/10">
-          <p className="text-sm text-gray-400">© 2025 Casa Pacífico Panama. All rights reserved.</p>
+          <p className="text-sm text-gray-400">© 2025 Singular Agency. All rights reserved.</p>
         </div>
       </div>
     </footer>
