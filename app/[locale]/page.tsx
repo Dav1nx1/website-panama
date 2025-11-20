@@ -12,40 +12,45 @@ import { ContactSection } from "@/components/contact-section"
 import { Footer } from "@/components/footer"
 
 export const metadata: Metadata = {
-  title: "Luxury Villa Madeira | Private Ocean View Retreat",
-  description: "Experience unparalleled luxury at Mea Suna Madeira. Private villa with infinity pool, home cinema, golf simulator, and panoramic ocean views. Book your exclusive retreat today.",
+  title: "Beachfront Investment Property Isla Grande | 9 Bedrooms, Direct Ocean Access | Panama",
+  description: "Exclusive beachfront investment opportunity in Isla Grande, Colon, Panama. 9 bedrooms, 2 duplex houses, 10 cabins on 6,000 m² with pool, bar, restaurant, volleyball court, and direct ocean access. Guaranteed ROI. Just 1.5 hours from Panama City.",
   keywords: [
-    "luxury villa madeira",
-    "private villa madeira", 
-    "ocean view villa madeira",
-    "luxury accommodation madeira",
-    "private retreat madeira",
-    "infinity pool villa madeira",
-    "home cinema villa madeira",
-    "golf simulator villa madeira",
-    "luxury vacation madeira",
-    "exclusive villa madeira"
+    "beachfront property panama",
+    "investment property isla grande",
+    "panama real estate investment",
+    "beachfront resort panama",
+    "colon panama property",
+    "panama vacation rental investment",
+    "boutique hotel panama",
+    "panama property for sale",
+    "isla grande panama",
+    "panama beachfront investment",
+    "guaranteed roi panama",
+    "panama rental property",
+    "9 bedrooms panama",
+    "panama duplex houses",
+    "panama cabins for sale"
   ],
   openGraph: {
-    title: "Luxury Villa Madeira | Private Ocean View Retreat",
-    description: "Experience unparalleled luxury at Mea Suna Madeira. Private villa with infinity pool, home cinema, golf simulator, and panoramic ocean views.",
+    title: "Beachfront Investment Property Isla Grande | 9 Bedrooms, Direct Ocean Access | Panama",
+    description: "Exclusive beachfront investment opportunity in Isla Grande, Colon, Panama. 9 bedrooms, 2 duplex houses, 10 cabins on 6,000 m² with pool, bar, restaurant, and direct ocean access. Guaranteed ROI.",
     images: [
       {
-        url: "/601828177.jpg",
+        url: "/image4.jpeg",
         width: 1200,
         height: 630,
-        alt: "Luxury Villa Madeira with Ocean View",
+        alt: "Beachfront Property Isla Grande, Colon - Investment Opportunity Panama",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Luxury Villa Madeira | Private Ocean View Retreat",
-    description: "Experience unparalleled luxury at Mea Suna Madeira. Private villa with infinity pool, home cinema, golf simulator, and panoramic ocean views.",
-    images: ["/601828177.jpg"],
+    title: "Beachfront Investment Property Isla Grande | 9 Bedrooms, Direct Ocean Access | Panama",
+    description: "Exclusive beachfront investment opportunity in Isla Grande, Colon, Panama. 9 bedrooms, 2 duplex houses, 10 cabins on 6,000 m² with guaranteed ROI.",
+    images: ["/image4.jpeg"],
   },
   alternates: {
-    canonical: "https://measunamadeira.com",
+    canonical: "https://oportunidadenislagrande.com",
   },
 }
 
@@ -69,23 +74,24 @@ export default function Home() {
       
       {/* Hidden SEO content for search engines */}
       <div className="sr-only">
-        <h1>Mea Suna Madeira - Luxury Private Villa in Madeira</h1>
-        <p>Discover the ultimate luxury retreat at Mea Suna Madeira, a private villa offering unparalleled comfort, world-class amenities, and breathtaking ocean views. Our exclusive property features an infinity pool, state-of-the-art home cinema, professional golf simulator, and premium wellness facilities. Perfect for families, couples, and groups seeking an unforgettable luxury vacation experience in Madeira, Portugal.</p>
+        <h1>Beachfront Investment Property Isla Grande, Colon - Panama Real Estate Opportunity</h1>
+        <p>Exclusive beachfront investment opportunity in Isla Grande, Colon sector, Panama. This exceptional 6,000 m² property features 9 bedrooms across multiple structures including 2 duplex houses, 10 individual cabins, and a large two-story house with 3 bedrooms. Perfect for boutique hotel operations or vacation rental investment with guaranteed return on investment potential. Located just 1.5 hours from Panama City with direct ocean access, swimming pool, bar, restaurant, and volleyball court.</p>
         
-        <h2>Luxury Amenities & Features</h2>
+        <h2>Property Features & Structures</h2>
         <ul>
-          <li>Infinity pool with panoramic ocean views</li>
-          <li>Home cinema with premium sound system</li>
-          <li>Professional golf simulator</li>
-          <li>Fitness center with sea views</li>
-          <li>Sauna and relaxation areas</li>
-          <li>Luxury bedrooms with ocean views</li>
-          <li>Modern kitchen and dining areas</li>
-          <li>Private gardens and terraces</li>
+          <li>9 total bedrooms across all structures</li>
+          <li>2 modern duplex houses with multiple bedrooms</li>
+          <li>10 individual cabins for flexible rental options</li>
+          <li>Large two-story house with 3 bedrooms</li>
+          <li>Special cabin with 2 bedrooms (1 large with 4 beds, 1 small)</li>
+          <li>6,000 m² beachfront property</li>
+          <li>Direct ocean access</li>
+          <li>Swimming pool with bar and restaurant</li>
+          <li>Volleyball court for entertainment</li>
         </ul>
         
-        <h2>Location & Accessibility</h2>
-        <p>Located on the beautiful island of Madeira, Portugal, Mea Suna Madeira offers easy access to pristine beaches, hiking trails, golf courses, and cultural attractions. The villa is perfectly positioned for both relaxation and adventure.</p>
+        <h2>Investment Opportunity & Location</h2>
+        <p>Located in Isla Grande, Colon sector, Panama - just 1.5 hours from Panama City. This turnkey beachfront property offers exceptional income potential for boutique hotel operations or vacation rentals. With guaranteed return on investment, multiple revenue streams, and a prime location in Panama's growing tourism market, this is an ideal investment opportunity for real estate investors seeking profitable beachfront properties in Central America.</p>
       </div>
     </>
   )

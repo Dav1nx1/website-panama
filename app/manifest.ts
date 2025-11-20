@@ -2,9 +2,9 @@ import { MetadataRoute } from 'next'
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: 'Mea Suna Madeira - Hidden Paradise',
-    short_name: 'Mea Suna Madeira',
-    description: 'Luxury private villa in Madeira with panoramic ocean views and world-class amenities.',
+    name: 'Oportunidad en Isla Grande - Beachfront Investment Property Panama',
+    short_name: 'Isla Grande Property',
+    description: 'Exclusive beachfront investment property in Isla Grande, Colon, Panama. 9 bedrooms, 2 duplex houses, 10 cabins on 6,000 m² with direct ocean access and guaranteed ROI.',
     start_url: '/',
     display: 'standalone',
     background_color: '#0a1628',
@@ -26,7 +26,7 @@ export default function manifest(): MetadataRoute.Manifest {
         type: 'image/png',
       },
     ],
-    categories: ['travel', 'hospitality', 'luxury'],
+    categories: ['real estate', 'investment', 'property'],
     lang: 'en',
     scope: '/',
     orientation: 'portrait-primary',

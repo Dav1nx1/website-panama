@@ -14,27 +14,29 @@ const montserrat = Montserrat({
 
 export const metadata: Metadata = {
   title: {
-    default: "Mea Suna Madeira - Hidden Paradise | Luxury Villa Madeira",
-    template: "%s | Mea Suna Madeira"
+    default: "Beachfront Investment Property Isla Grande | 9 Bedrooms, Direct Ocean Access | Panama",
+    template: "%s | Oportunidad en Isla Grande"
   },
-  description: "Immerse yourself in the serene oasis of Mea Suna Madeira, where comfort and style coexist in perfect harmony. Luxury private villa with panoramic ocean views, world-class amenities, and unparalleled privacy.",
+  description: "Exclusive beachfront investment opportunity in Isla Grande, Colon, Panama. 9 bedrooms, 2 duplex houses, 10 cabins on 6,000 m² with pool, bar, restaurant, volleyball court, and direct ocean access. Guaranteed ROI. Just 1.5 hours from Panama City.",
   keywords: [
-    "luxury villa madeira",
-    "private villa madeira",
-    "luxury accommodation madeira",
-    "ocean view villa madeira",
-    "luxury rental madeira",
-    "private retreat madeira",
-    "luxury vacation madeira",
-    "madeira luxury villa",
-    "exclusive villa madeira",
-    "premium accommodation madeira"
+    "beachfront property panama",
+    "investment property isla grande",
+    "panama real estate investment",
+    "beachfront resort panama",
+    "colon panama property",
+    "panama vacation rental investment",
+    "boutique hotel panama",
+    "panama property for sale",
+    "isla grande panama",
+    "panama beachfront investment",
+    "guaranteed roi panama",
+    "panama rental property"
   ],
-  authors: [{ name: "Mea Suna Madeira" }],
-  creator: "Mea Suna Madeira",
-  publisher: "Mea Suna Madeira",
+  authors: [{ name: "Oportunidad en Isla Grande" }],
+  creator: "Oportunidad en Isla Grande",
+  publisher: "Oportunidad en Isla Grande",
   generator: "Next.js",
-  applicationName: "Mea Suna Madeira",
+  applicationName: "Oportunidad en Isla Grande",
   referrer: "origin-when-cross-origin",
   robots: {
     index: true,
@@ -50,25 +52,25 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://measunamadeira.com",
-    siteName: "Mea Suna Madeira",
-    title: "Mea Suna Madeira - Hidden Paradise | Luxury Villa Madeira",
-    description: "Immerse yourself in the serene oasis of Mea Suna Madeira, where comfort and style coexist in perfect harmony. Luxury private villa with panoramic ocean views.",
+    url: "https://oportunidadenislagrande.com",
+    siteName: "Oportunidad en Isla Grande",
+    title: "Beachfront Investment Property Isla Grande | 9 Bedrooms, Direct Ocean Access | Panama",
+    description: "Exclusive beachfront investment opportunity in Isla Grande, Colon, Panama. 9 bedrooms, 2 duplex houses, 10 cabins on 6,000 m² with pool, bar, restaurant, and direct ocean access. Guaranteed ROI.",
     images: [
       {
-        url: "/601828177.jpg",
+        url: "/image4.jpeg",
         width: 1200,
         height: 630,
-        alt: "Mea Suna Madeira - Luxury Villa with Ocean View",
+        alt: "Beachfront Property Isla Grande, Colon - Investment Opportunity Panama",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Mea Suna Madeira - Hidden Paradise | Luxury Villa Madeira",
-    description: "Immerse yourself in the serene oasis of Mea Suna Madeira, where comfort and style coexist in perfect harmony.",
-    images: ["/601828177.jpg"],
-    creator: "@measunamadeira",
+    title: "Beachfront Investment Property Isla Grande | 9 Bedrooms, Direct Ocean Access | Panama",
+    description: "Exclusive beachfront investment opportunity in Isla Grande, Colon, Panama. 9 bedrooms, 2 duplex houses, 10 cabins on 6,000 m² with guaranteed ROI.",
+    images: ["/image4.jpeg"],
+    creator: "@oportunidadenislagrande",
   },
   verification: {
     google: "your-google-verification-code",
@@ -76,15 +78,15 @@ export const metadata: Metadata = {
     yahoo: "your-yahoo-verification-code",
   },
   alternates: {
-    canonical: "https://measunamadeira.com",
+    canonical: "https://oportunidadenislagrande.com",
     languages: {
-      "en-US": "https://measunamadeira.com/en",
-      "es-ES": "https://measunamadeira.com/es",
-      "pt-PT": "https://measunamadeira.com/pt",
-      "fr-FR": "https://measunamadeira.com/fr",
+      "en-US": "https://oportunidadenislagrande.com/en",
+      "es-ES": "https://oportunidadenislagrande.com/es",
+      "pt-PT": "https://oportunidadenislagrande.com/pt",
+      "fr-FR": "https://oportunidadenislagrande.com/fr",
     },
   },
-  category: "Luxury Hospitality",
+  category: "Real Estate Investment",
 }
 
 const locales = ['en', 'es', 'pt', 'fr']
@@ -101,72 +103,70 @@ export default async function RootLayout({
   const validLocale = 'en'
   const structuredData = {
     "@context": "https://schema.org",
-    "@type": "LodgingBusiness",
-    "name": "Mea Suna Madeira",
-    "description": "Luxury private villa in Madeira with panoramic ocean views, world-class amenities, and unparalleled privacy.",
-    "url": "https://measunamadeira.com",
-    "logo": "https://measunamadeira.com/logo.png",
+    "@type": "RealEstateAgent",
+    "name": "Oportunidad en Isla Grande",
+    "description": "Exclusive beachfront investment property in Isla Grande, Colon, Panama. 9 bedrooms, 2 duplex houses, 10 cabins on 6,000 m² with pool, bar, restaurant, volleyball court, and direct ocean access. Guaranteed return on investment.",
+    "url": "https://oportunidadenislagrande.com",
     "image": [
-      "https://measunamadeira.com/601828177.jpg",
-      "https://measunamadeira.com/601828180.jpg",
-      "https://measunamadeira.com/671353553.jpg"
+      "https://oportunidadenislagrande.com/image4.jpeg",
+      "https://oportunidadenislagrande.com/image1.jpeg",
+      "https://oportunidadenislagrande.com/image5.jpeg"
     ],
     "address": {
       "@type": "PostalAddress",
-      "addressCountry": "PT",
-      "addressRegion": "Madeira",
-      "addressLocality": "Madeira Island"
+      "addressCountry": "PA",
+      "addressRegion": "Colon",
+      "addressLocality": "Isla Grande"
     },
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": "32.7607",
-      "longitude": "-16.9595"
+      "latitude": "9.6333",
+      "longitude": "-79.0333"
     },
-    "telephone": "+351-XXX-XXX-XXX",
-    "email": "info@measunamadeira.com",
-    "priceRange": "$$$$",
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Beachfront Investment Property",
+      "itemListElement": {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Accommodation",
+          "name": "Beachfront Resort Complex Isla Grande",
+          "description": "9 bedrooms, 2 duplex houses, 10 cabins, 6,000 m² property with pool, bar, restaurant, volleyball court, and direct ocean access",
+          "numberOfRooms": "9",
+          "floorSize": {
+            "@type": "QuantitativeValue",
+            "value": "6000",
+            "unitCode": "MTK"
+          }
+        }
+      }
+    },
     "amenityFeature": [
       {
         "@type": "LocationFeatureSpecification",
-        "name": "Infinity Pool",
+        "name": "Swimming Pool",
         "value": true
       },
       {
         "@type": "LocationFeatureSpecification", 
-        "name": "Fitness Center",
+        "name": "Restaurant",
         "value": true
       },
       {
         "@type": "LocationFeatureSpecification",
-        "name": "Home Cinema",
+        "name": "Bar",
         "value": true
       },
       {
         "@type": "LocationFeatureSpecification",
-        "name": "Golf Simulator",
+        "name": "Volleyball Court",
         "value": true
       },
       {
         "@type": "LocationFeatureSpecification",
-        "name": "Sauna",
+        "name": "Direct Ocean Access",
         "value": true
       }
-    ],
-    "starRating": {
-      "@type": "Rating",
-      "ratingValue": "5",
-      "bestRating": "5"
-    },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "5.0",
-      "reviewCount": "50",
-      "bestRating": "5"
-    },
-    "sameAs": [
-      "https://www.instagram.com/measunamadeira",
-      "https://www.airbnb.com/rooms/measunamadeira",
-      "https://www.booking.com/measunamadeira"
     ]
   }
 
