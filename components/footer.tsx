@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { Instagram } from "lucide-react"
+import { Instagram, Phone } from "lucide-react"
 
 export function Footer() {
   return (
@@ -53,6 +53,21 @@ export function Footer() {
         </div>
 
         <div className="text-center mt-8 pt-8 border-t border-white/10">
+          <div className="flex flex-col md:flex-row items-center justify-center gap-4 mb-4">
+            <div className="flex items-center gap-2 text-white">
+              <Phone className="w-4 h-4" />
+              <a href="tel:+17184169623" className="text-sm hover:text-cyan-400 transition-colors duration-300">
+                +1 (718) 416-9623
+              </a>
+            </div>
+            <span className="hidden md:inline text-gray-500">|</span>
+            <div className="flex items-center gap-2 text-white">
+              <Phone className="w-4 h-4" />
+              <a href="tel:+17874549766" className="text-sm hover:text-cyan-400 transition-colors duration-300">
+                +1 (787) 454-9766
+              </a>
+            </div>
+          </div>
           <p className="text-sm text-gray-400">© 2025 Singular Agency. All rights reserved.</p>
         </div>
       </div>

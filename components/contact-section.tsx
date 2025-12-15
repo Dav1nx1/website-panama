@@ -2,7 +2,7 @@
 
 import { useEffect, useRef } from "react"
 import Image from "next/image"
-import { Calendar, FileText } from "lucide-react"
+import { Calendar, FileText, Phone } from "lucide-react"
 
 export function ContactSection() {
   const sectionRef = useRef<HTMLDivElement>(null)
@@ -50,7 +50,7 @@ export function ContactSection() {
         </div>
 
         {/* Cards */}
-        <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto w-full">
+        <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto w-full mb-12">
           {/* Booking Request Card */}
           <div className="bg-white p-12 rounded-lg hover:shadow-2xl transition-shadow duration-300 group cursor-pointer">
             <div className="flex items-start justify-between mb-6">
@@ -70,6 +70,31 @@ export function ContactSection() {
                 <p className="text-gray-600">Get detailed financials, projections, and property information.</p>
               </div>
               <FileText className="w-12 h-12 text-[#0a1628] group-hover:scale-110 transition-transform duration-300" />
+            </div>
+          </div>
+        </div>
+
+        {/* Phone Numbers */}
+        <div className="text-center">
+          <div className="bg-white/10 backdrop-blur-sm rounded-lg p-8 max-w-2xl mx-auto">
+            <div className="flex items-center justify-center gap-3 mb-6">
+              <Phone className="w-8 h-8 text-white" />
+              <h3 className="text-2xl font-light text-white">Contact Us</h3>
+            </div>
+            <div className="flex flex-col md:flex-row items-center justify-center gap-6 text-white">
+              <a 
+                href="tel:+17184169623" 
+                className="text-xl font-light hover:text-cyan-400 transition-colors duration-300"
+              >
+                +1 (718) 416-9623
+              </a>
+              <span className="hidden md:inline text-gray-400">|</span>
+              <a 
+                href="tel:+17874549766" 
+                className="text-xl font-light hover:text-cyan-400 transition-colors duration-300"
+              >
+                +1 (787) 454-9766
+              </a>
             </div>
           </div>
         </div>

@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import { Menu, X } from "lucide-react"
+import { Menu, X, Phone } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
@@ -116,6 +116,22 @@ export function RoomsHeroSection() {
             <a href="#" className="text-2xl font-light tracking-wider hover:text-cyan-400 transition-colors">
               CONTACT
             </a>
+            <div className="pt-8 border-t border-white/20 w-full max-w-xs">
+              <div className="flex flex-col items-center gap-4">
+                <div className="flex items-center gap-2">
+                  <Phone className="w-5 h-5" />
+                  <span className="text-sm text-white/80">Call Us</span>
+                </div>
+                <div className="flex flex-col items-center gap-2">
+                  <a href="tel:+17184169623" className="text-lg font-light hover:text-cyan-400 transition-colors">
+                    +1 (718) 416-9623
+                  </a>
+                  <a href="tel:+17874549766" className="text-lg font-light hover:text-cyan-400 transition-colors">
+                    +1 (787) 454-9766
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       )}
