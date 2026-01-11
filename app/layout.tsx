@@ -13,6 +13,7 @@ const montserrat = Montserrat({
 })
 
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_DOMAIN || 'https://oportunidadenislagrande.com'),
   title: {
     default: "Beachfront Investment Property Isla Grande | 9 Bedrooms, Direct Ocean Access | Panama",
     template: "%s | Oportunidad en Isla Grande"
